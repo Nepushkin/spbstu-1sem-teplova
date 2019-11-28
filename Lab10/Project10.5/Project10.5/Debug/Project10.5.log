@@ -1,0 +1,4 @@
+﻿  Source.c
+d:\desktop\задания тепловой\project10\project10.5\project10.5\source.c(38): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+d:\desktop\задания тепловой\project10\project10.5\project10.5\source.c(65): warning C4244: функция: преобразование "time_t" в "unsigned int", возможна потеря данных
+  Project10.5.vcxproj -> D:\Desktop\Задания Тепловой\Project10\Project10.5\Debug\Project10.5.exe
