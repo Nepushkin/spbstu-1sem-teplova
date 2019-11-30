@@ -128,7 +128,8 @@ int main()
 {
 	srand(time(0));
 	setlocale(LC_ALL, "Russian");
-	int rows, cols, n, m;
+	int rows, cols, n, m, iter;
+	iter = 0;
 	float p;
 	char c;
 	int** field;
@@ -156,11 +157,13 @@ int main()
 			}
 		}
 		printField(field, rows, cols);
+		iter++;
 		endGeneration(field, rows, cols);
 		scanf("%c", &c);
 	}
 	printField(field, rows, cols);
-
+	setlocale(LC_ALL, "Russian");
+	printf("Число итераций: %d", iter);
 
 
 	deleteMatrix(field, rows + 2);
